@@ -62,7 +62,7 @@ class TournamentsController < ApplicationController
         format.html { redirect_to tournaments_url, notice: 'Tournament was successfully destroyed.' }
         format.json { head :no_content }
       end
-      end
+    end
   end
 
   private
